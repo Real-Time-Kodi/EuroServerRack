@@ -1,48 +1,40 @@
-# SixInchRack
+# EuroServerRack
 
-This is a project for 6" cabinets and rack enclusures. 
+This is a project based on KronBjorn's [6 Inch Rack](https://github.com/KronBjorn/SixInchRack).  
+It takes their design and removes the handles, and scales it to 128mm wide to fit in a eurorack.
+The standard 1u was changed to be 5mm to match up with the eurorack standard's HP rack units. Ears and screwholes were scaled to use m3 for just about everything and cheaply available #6x1/2" screws(3mm x 10mm) for assembly.
+It is inteded that you use a flexATX power supply and poke female 4 pin molex out of the back of each enclosure. In the future there will be an option for using barrel connectors added to all of the customizers.
 
 For pictures have a look here:
- - http://www.thingiverse.com/thing:1957436
- - http://www.thingiverse.com/thing:1936196
- - http://www.thingiverse.com/thing:2084736
+ - [Printables Collection](https://www.printables.com/@Beefdip_176978/collections/1432728)]
+ - [Power Supply Control Module](https://www.printables.com/model/871111-atx-power-supply-control-module-for-eurorack)
+ - [FlexATX Mounting Plate](https://www.printables.com/model/871077-flex-atx-power-supply-eurorack-mount)
+
 
 The project is a scaled down version of the familiar 19" rack standard, with the following size:
- - 1U is 14mm
- - The front plate is 155mm wide
- - The inside distance between the two vertical profiles is 115mm
- - The ears protrude 20mm
- 
-It is designed for the 20x20 extruded aluminium profile, but a profile can also be printed.
+ - 1U(HP) is 5mm
+ - The front plate is 128.5mm wide
+ - The mounting holes are 122.5 mm center-to-center
+ - The inside distance between the two vertical profiles is 110 mm
+ - The ears protrude 9.25mm
+ - The screw holes are sized for M3 cap screws
 
-
-##I want to print a simple blank six inch cabinet
-Go Thingiverse and locate this build: http://www.thingiverse.com/thing:1957436
-In the customizer you specify how many units you need in height, and depth in mm you need.
-Alternatively, fetch these files from the repository:...
-
-
-##I want to print a simple six inch rack enclosure for cabinets
-Go Thingiverse and locate this build: http://www.thingiverse.com/thing:1957436
-In the customizer you specify which parts you need.
-Alternatively, fetch these files from the repository:...
-
-##I want to print a 6" cabinet for a specific component
-Either go to thingiverse where you can find the stl's and pictures, or download the stl's form this repository. Currently the following components are supported by the community:
-
-- http://www.thingiverse.com/thing:2084736 Raspberry Pi 3 Model B
-- http://www.thingiverse.com/thing:1905998 Raspberry Pi B
-- http://www.thingiverse.com/thing:2151578 Beaglebone Black
-- http://www.thingiverse.com/thing:2123108 DPS5005 power supply
-- http://www.thingiverse.com/thing:2105698 Beaglebone Black
+##I want to print a mount for a specific component
+You can get info and STLs for specific components here:
+ - [Printables Collection](https://www.printables.com/@Beefdip_176978/collections/1432728)]
+ - [3u Eurorack Enclosure](https://www.printables.com/model/871019-3u-eurorack)
+ - [Power Supply Control Module](https://www.printables.com/model/871111-atx-power-supply-control-module-for-eurorack)
+ - [FlexATX Mounting Plate](https://www.printables.com/model/871077-flex-atx-power-supply-eurorack-mount)
+ - [Hotswap Bay](https://www.printables.com/model/871097-eurorack-hotswap-bay)
+ - [Fan Mounts and Ductwork](https://www.printables.com/model/871048-eurorack-fan-and-ductwork)
 
 ##I want to make a new cabinet for my favourite module
-Start by inspecting this file for inspiration _RackCabinets/RaspberryPiModelB/usb_back.scad_, and take a look at the how to section below.
+Start by inspecting this file for inspiration _RackCabinets/RaspberryPi34ModelB/usb_front.scad_, and take a look at the how to section below.
 
 1. Create a new file that includes _sixinch_library.scad_
 2. Customize all the parts needed for your cabinet
 3. Create a new folder with you project, and anything else needed like print descriptions
-4. If you like, create a Thingiverse build with pictures and your stl, and add a link in this file
+4. If you like, create a Printables build with pictures and your stl, and add a link in this file
 
 ##Quick How To##
 A cabinet consist of five parts:
@@ -65,13 +57,6 @@ screw_top          = [36];
 screw_bottom_front = [36];
 units              = 2; 
 frontplate(units,square_hole,round_hole,round_peg,screw_side_front,screw_top,screw_bottom_front);
-```
-
-###Handle###
-```java
-units              = 2;
-lay_flat_for_print = true;   
-handle(units,lay_flat_for_print);
 ```
 
 ###Cabinet###
