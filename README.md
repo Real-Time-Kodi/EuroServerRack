@@ -6,7 +6,7 @@ The standard 1u was changed to be 5mm to match up with the eurorack standard's H
 It is inteded that you use a flexATX power supply and poke female 4 pin molex out of the back of each enclosure. In the future there will be an option for using barrel connectors added to all of the customizers.
 
 For pictures have a look here:
- - [Printables Collection](https://www.printables.com/@Beefdip_176978/collections/1432728)]
+ - [Printables Collection](https://www.printables.com/@Beefdip_176978/collections/1432728)
  - [Power Supply Control Module](https://www.printables.com/model/871111-atx-power-supply-control-module-for-eurorack)
  - [FlexATX Mounting Plate](https://www.printables.com/model/871077-flex-atx-power-supply-eurorack-mount)
 
@@ -23,8 +23,11 @@ The project is a scaled down version of the familiar 19" rack standard, with the
 You can get info and STLs for specific components here:
  - [Printables Collection](https://www.printables.com/@Beefdip_176978/collections/1432728)]
  - [3u Eurorack Enclosure](https://www.printables.com/model/871019-3u-eurorack)
+ - [Jetson Nano Chassis](https://www.printables.com/model/871200-eurorack-chassis-for-jetson-nano)
+ - [Raspberry Pi B Chassis](https://www.printables.com/model/871206-eurorack-chassis-for-raspberry-pi-b)(and le potato)
  - [Power Supply Control Module](https://www.printables.com/model/871111-atx-power-supply-control-module-for-eurorack)
  - [FlexATX Mounting Plate](https://www.printables.com/model/871077-flex-atx-power-supply-eurorack-mount)
+ - [Passthrough Chassis](https://www.printables.com/model/871212-eurorack-passthrough-plate)
  - [Hotswap Bay](https://www.printables.com/model/871097-eurorack-hotswap-bay)
  - [Fan Mounts and Ductwork](https://www.printables.com/model/871048-eurorack-fan-and-ductwork)
 
