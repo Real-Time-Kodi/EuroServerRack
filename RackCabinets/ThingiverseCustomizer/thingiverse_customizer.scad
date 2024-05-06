@@ -1,3 +1,13 @@
+/* Eurorack Enclosure Generator 
+ * Modified for purpose by @realtimekodi
+ * https://github.com/Real-Time-Kodi/EuroServerRack/
+ * Initially designed by KronBjorn
+ * https://github.com/KronBjorn/SixInchRack
+ * 
+ * Creative Commons 4.0 Share Alike With Attribution -- Non-Comercial
+ * http://creativecommons.org/licenses/by-nc-sa/4.0/
+*/
+
 $fn = 50*1;
 
 
@@ -11,7 +21,7 @@ $fn = 50*1;
 include<../sixinch_library.scad>
 
 Part = "-"; // [a:All, b:FrontPlate, c:Cabinet, d:Lid, e:BackPlate]
-Units = 6; //HP units (min 6
+Units = 6; //HP units (min 6)
 Depth = 115; //depth of enclosure
 
 

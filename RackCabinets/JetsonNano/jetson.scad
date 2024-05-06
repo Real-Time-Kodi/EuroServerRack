@@ -1,8 +1,18 @@
+/* Jetson Nano Eurorack Enclosure Generator 
+ * Modified for purpose by @realtimekodi
+ * https://github.com/Real-Time-Kodi/EuroServerRack/
+ * Initially designed by KronBjorn
+ * https://github.com/KronBjorn/SixInchRack
+ * 
+ * Creative Commons 4.0 Share Alike With Attribution -- Non-Comercial
+ * http://creativecommons.org/licenses/by-nc-sa/4.0/
+*/
+
 include<../sixinch_library.scad>
 
-print_frontplate_sml = false;
-print_cabinet_sml    = false;
-print_lid            = false;
+print_frontplate_sml = true;
+print_cabinet_sml    = true;
+print_lid            = true;
 print_rear           = true;
 
 
