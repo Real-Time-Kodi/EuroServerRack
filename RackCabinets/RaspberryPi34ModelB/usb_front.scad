@@ -14,6 +14,9 @@ print_cabinet_sml    = false;
 print_lid            = false;
 print_rear           = true;
 
+molex                = true;
+barrel               = false;
+barrel_dai           = 6.5;
 
 Vent_Length          = 65;
 Vent_Frequency       = 6;
